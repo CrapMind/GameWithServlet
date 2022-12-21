@@ -16,7 +16,7 @@
 <section>
     <div style="text-align: center; width: 400px">
         <fieldset>
-            <legend><h1>${name}Ты проиграл!</h1></legend>
+            <legend><h1>${name} Ты проиграл!</h1></legend>
             <%session.invalidate();%>
             <form action="index.jsp">
                 <button id="agree" type="submit">Еще раз?</button>
